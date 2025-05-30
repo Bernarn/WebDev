@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BernJi Blog - Register</title>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>BernJi Blog</h1>
+            <h2>Robotics Revolution</h2>
+            <p>Exploring the Future of Automation and AI</p>
+        </div>
+        
+
+        
+        <div class="registration-section">
+            <h3>Register for BernJi Blog - Robotics Revolution</h3>
+            <p>Stay informed about the latest posts and robotics developments. Join our community of tech enthusiasts and industry professionals.</p>
+            <br>
+            
+            <form id="registrationForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="interests">Primary Interest in Robotics</label>
+                    <select id="interests" name="interests">
+                        <option value="">Select your area of interest</option>
+                        <option value="industrial">Industrial Robotics</option>
+                        <option value="ai">Artificial Intelligence</option>
+                        <option value="autonomous">Autonomous Vehicles</option>
+                        <option value="medical">Medical Robotics</option>
+                        <option value="consumer">Consumer Robotics</option>
+                        <option value="research">Research & Development</option>
+                        <option value="automation">Process Automation</option>
+                        <option value="general">General Interest</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="background">Professional Background (Optional)</label>
+                    <select id="background" name="background">
+                        <option value="">Select your background</option>
+                        <option value="student">Student</option>
+                        <option value="engineer">Engineer</option>
+                        <option value="researcher">Researcher</option>
+                        <option value="developer">Software Developer</option>
+                        <option value="entrepreneur">Entrepreneur</option>
+                        <option value="educator">Educator</option>
+                        <option value="enthusiast">Technology Enthusiast</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" checked>
+                    <label for="newsletter">
+                        Subscribe to weekly robotics updates and new blog posts
+                    </label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">
+                        I agree to the Terms of Service and Privacy Policy
+                    </label>
+                </div>
+                
+                <button type="submit" class="submit-btn">Register for BernJi Blog</button>
+            </form>
+            
+            <div class="login-link">
+                Already have an account? <a href="#">Sign in here</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
